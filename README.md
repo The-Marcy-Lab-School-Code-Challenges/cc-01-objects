@@ -19,21 +19,21 @@ const fellows = "marcy fellows"
     
     ```javascript
     const fellows = "marcy fellows"
-    charCount(fellows) // returns { m: 1, a: 1, r: 1, c: 1, y: 1, ' ': 1, f: 1, e: 1, l: 2, o: 1, w: 1, s: 1 }
+    charCount(fellows) // returns { "m": 1, "a": 1, "r": 1, "c": 1, "y": 1, " ": 1, "f": 1, "e": 1, "l": 2, "o": 1, "w": 1, "s": 1 }
     ```
     
 2. Write a function named `letterCount` that takes in a string and returns an object where the keys are letters in the string and the value of each key is a count of how many times the character appears in the string, not including empty spaces. 
     
     ```javascript
-    letterCount(fellows) // returns { m: 1, a: 1, r: 1, c: 1, y: 1, f: 1, e: 1, l: 2, o: 1, w: 1, s: 1 }
+    letterCount(fellows) // returns { "m": 1, "a": 1, "r": 1, "c": 1, "y": 1, "f": 1, "e": 1, "l": 2, "o": 1, "w": 1, "s": 1 }
     ```
     
 ### Bonus
-3. Write a function named `letterCountRefactor` that has the same input and output as `letterCount` except you cannot use a `for` loop or `if` statements. Consider using `for in`, `for of`, and ternary operators. 
+3. Write a function named `letterCountRefactor` that has the same input and output as `letterCount` except you cannot use a `for` loop. Consider using a [`for in`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) or [`for of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of]) loop. 
 
 
 4. Write a function named `vowelCount` that takes in a string and returns an object where the keys are letters in the given string that are vowels and the value of each vowel key is a count of how many times the character appears in the string.
 
     ```javascript
-    vowelCount(fellows) // returns {a: 1, o: 1, e: 1}
+    vowelCount(fellows) // returns {"a": 1, "o": 1, "e": 1}
     ```
