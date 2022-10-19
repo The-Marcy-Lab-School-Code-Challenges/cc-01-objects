@@ -10,16 +10,20 @@
 
 ## Code Problems
 
-1. Declare a function called `stripUpperCase` that takes in a string argument and returns a new string with all uppercase letters removed.
+### **Test your solutions for questions 1 and 2 with the following variable:** 
 ```javascript
-stripUpperCase('Hello!'); // 'ello!'
-stripUpperCase('SevenEleven'); // 'evenleven'
-stripUpperCase("Don't play with Me!"); // 'ont play with e!'
+const fellows = "marcy fellows"
 ```
 
-2. Declare a function named `findLongestWord`, that takes an array of strings as an argument, and returns the longest string in the array. If there is more than one longest string, the function should return the **first** longest string that appears in the array. You must solve this without using any array methods. 
-```javascript
-findLongestWord(["The","quick","brown", "fox", "jumped", "over", "the", "lazy", "dog"]) //returns "jumped"
-
-findLongestWord(["jazzy", "jumpy", "quaky"]) //returns "jazzy"
-```
+1. Write a function named `charCount` that takes in a string and returns an object where the keys are letters in the string and the value of each key is a count of how many times the character appears in the string.
+    
+    ```javascript
+    const fellows = "marcy fellows"
+    charCount(fellows) // returns {" ": 1, a: 1, c: 1, e: 2, f: 1, l: 2, n: 1,o: 2, p: 1, s: 2, t: 1, w: 1}
+    ```
+    
+2. Write a function named `letterCount` that takes in a string and returns an object where the keys are letters in the string and the value of each key is a count of how many times the character appears in the string, not including empty spaces. 
+    
+    ```javascript
+    charCount(capstone) // returns {a: 1, c: 1, e: 2, f: 1, l: 2, n: 1,o: 2, p: 1, s: 2, t: 1, w: 1}
+    ```
