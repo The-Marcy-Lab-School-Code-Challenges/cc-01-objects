@@ -1,4 +1,4 @@
-# Code Challenge: Strings and Arrays
+# Code Challenge: Objects
 
 ## Instructions
 
@@ -19,11 +19,21 @@ const fellows = "marcy fellows"
     
     ```javascript
     const fellows = "marcy fellows"
-    charCount(fellows) // returns {" ": 1, a: 1, c: 1, e: 2, f: 1, l: 2, n: 1,o: 2, p: 1, s: 2, t: 1, w: 1}
+    charCount(fellows) // returns { m: 1, a: 1, r: 1, c: 1, y: 1, ' ': 1, f: 1, e: 1, l: 2, o: 1, w: 1, s: 1 }
     ```
     
 2. Write a function named `letterCount` that takes in a string and returns an object where the keys are letters in the string and the value of each key is a count of how many times the character appears in the string, not including empty spaces. 
     
     ```javascript
-    charCount(capstone) // returns {a: 1, c: 1, e: 2, f: 1, l: 2, n: 1,o: 2, p: 1, s: 2, t: 1, w: 1}
+    letterCount(fellows) // returns { m: 1, a: 1, r: 1, c: 1, y: 1, f: 1, e: 1, l: 2, o: 1, w: 1, s: 1 }
+    ```
+    
+### Bonus
+3. Write a function named `letterCountRefactor` that has the same input and output as `letterCount` except you cannot use a `for` loop or `if` statements. Consider using `for in`, `for of`, and ternary operators. 
+
+
+4. Write a function named `vowelCount` that takes in a string and returns an object where the keys are letters in the given string that are vowels and the value of each vowel key is a count of how many times the character appears in the string.
+
+    ```javascript
+    vowelCount(fellows) // returns {a: 1, o: 1, e: 1}
     ```
