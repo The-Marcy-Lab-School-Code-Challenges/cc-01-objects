@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Clone down this assignment to your `code-challenges' directory in AWS Cloud9.  
+1. Clone down this assignment to your `code-challenges' directory in VScode.  
 2. Code your solution using JavaScript in `index.js`. 
 3. **Be sure to run and test your code throughly!**
 4. By the end of Code Challenge, **commit and push your changes up to Github**.
@@ -29,7 +29,7 @@ const fellows = "marcy fellows"
     ```
     
 ### Bonus
-3. Write a function named `letterCountRefactor` that has the same input and output as `letterCount` except you cannot use a `for` loop. Consider using a [`for in`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) or [`for of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of]) loop. 
+3. Write a function named `letterCountRefactor` that has the same input and output as `letterCount` except you cannot use a `for let i` loop. Consider using a [`for in`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) or [`for of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of]) loop. 
 
 
 4. Write a function named `vowelCount` that takes in a string and returns an object where the keys are letters in the given string that are vowels and the value of each vowel key is a count of how many times the character appears in the string.
